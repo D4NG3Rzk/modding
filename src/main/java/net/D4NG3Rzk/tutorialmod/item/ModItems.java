@@ -14,6 +14,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> OBSIDIAN_WHITE_FRAGMENT = ITEMS.register("obsidian_white_fragment",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+    public static final RegistryObject<Item> OBSIDIAN_BLACK_FRAGMENT = ITEMS.register("obsidian_black_fragment",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> JARRON = ITEMS.register("jarron",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> JARRONCUM = ITEMS.register("jarroncum",
