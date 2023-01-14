@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:black_obsidian_pure"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:obsidian_black_fragment",
+    "count": 9
+  }
+}

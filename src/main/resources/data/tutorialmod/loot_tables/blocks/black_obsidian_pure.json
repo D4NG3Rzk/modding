@@ -1,0 +1,14 @@
+{
+  "types": "minecraft:blocks",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tutorialmod:black_obsidian_pure"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:white_obsidian_pure"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:obsidian_white_fragment",
+    "count": 9
+  }
+}

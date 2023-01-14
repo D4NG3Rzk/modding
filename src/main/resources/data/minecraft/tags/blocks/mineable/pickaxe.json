@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:white_obsidian",
+    "tutorialmod:black_obsidian",
+    "tutorialmod:white_obsidian_pure",
+    "tutorialmod:black_obsidian_pure"
+  ]
+}

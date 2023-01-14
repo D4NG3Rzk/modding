@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:obsidian_black_fragment"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:black_obsidian_pure"
+  }
+}

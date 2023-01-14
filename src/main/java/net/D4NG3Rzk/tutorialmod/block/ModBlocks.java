@@ -30,7 +30,7 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.TUTORIAL_TAB);
-    public static final RegistryObject<Block> WHITE_OBSIDIAN_pure = registerBlock("white_obsidian_pure",
+    public static final RegistryObject<Block> WHITE_OBSIDIAN_PURE = registerBlock("white_obsidian_pure",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> BLACK_OBSIDIAN_PURE = registerBlock("black_obsidian_pure",
