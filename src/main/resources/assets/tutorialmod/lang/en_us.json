@@ -3,8 +3,10 @@
   "item.tutorialmod.obsidian_black_fragment": "Fregmento De Obsidiana Negra",
   "item.tutorialmod.jarron": "Jarron",
   "item.tutorialmod.jarroncum": "Jarron Con Esencia Blanca",
+
   "block.tutorialmod.black_obsidian": "Obsidiana Negra",
   "block.tutorialmod.black_obsidian_pure": "Obsidiana Negra Pura",
   "block.tutorialmod.white_obsidian": "Obsidiana Blanca",
-  "block.tutorialmod.white_obsidian_pure": "Obsidiana Blanca Pura"
+  "block.tutorialmod.white_obsidian_pure": "Obsidiana Blanca Pura",
+  "block.tutorialmod.caldero": "Caldero De Infusion"
 }

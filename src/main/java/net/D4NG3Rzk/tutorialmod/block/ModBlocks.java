@@ -3,6 +3,7 @@ package net.D4NG3Rzk.tutorialmod.block;
 import net.D4NG3Rzk.tutorialmod.TutorialMod;
 import net.D4NG3Rzk.tutorialmod.item.ModCreativeModeTab;
 import net.D4NG3Rzk.tutorialmod.item.ModItems;
+import net.D4NG3Rzk.tutorialmod.block.custom.CalderoBlock;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -36,6 +37,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACK_OBSIDIAN_PURE = registerBlock("black_obsidian_pure",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> CALDERO = registerBlock("caldero",
+            () -> new CalderoBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TUTORIAL_TAB);
 
 
 
