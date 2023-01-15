@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.D4NG3Rzk.tutorialmod.block.ModBlocks;
 import net.D4NG3Rzk.tutorialmod.block.entity.ModBlockEntities;
 import net.D4NG3Rzk.tutorialmod.item.ModItems;
+import net.D4NG3Rzk.tutorialmod.recipe.ModRecipes;
 import net.D4NG3Rzk.tutorialmod.screen.CalderoScreen;
 import net.D4NG3Rzk.tutorialmod.screen.ModMenuTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
@@ -30,6 +31,8 @@ public class TutorialMod {
 
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

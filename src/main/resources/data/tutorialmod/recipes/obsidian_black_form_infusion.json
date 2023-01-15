@@ -1,0 +1,11 @@
+{
+  "type": "tutorialmod:caldero_infusion",
+  "ingredients": [
+    {
+      "item": "tutorialmod:obsidian_black_fragment"
+    }
+  ],
+  "output": {
+    "item": "tutorialmod:jarroncumblack"
+  }
+}
