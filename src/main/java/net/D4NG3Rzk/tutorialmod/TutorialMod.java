@@ -2,7 +2,11 @@ package net.D4NG3Rzk.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.D4NG3Rzk.tutorialmod.block.ModBlocks;
+import net.D4NG3Rzk.tutorialmod.block.entity.ModBlockEntities;
 import net.D4NG3Rzk.tutorialmod.item.ModItems;
+import net.D4NG3Rzk.tutorialmod.screen.CalderoScreen;
+import net.D4NG3Rzk.tutorialmod.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -24,6 +28,9 @@ public class TutorialMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -39,6 +46,7 @@ public class TutorialMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 
+            MenuScreens.register(ModMenuTypes.CALDERO_MENU.get(), CalderoScreen::new);
         }
     }
 }
